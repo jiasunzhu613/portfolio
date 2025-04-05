@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import NavBar from '@/components/NavBar'
 import ProjectCard from '@/components/ProjectCard'
 import ProjectData from './projectData.json'
