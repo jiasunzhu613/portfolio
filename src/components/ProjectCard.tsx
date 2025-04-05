@@ -1,6 +1,16 @@
 import Link from 'next/link'
 // import dog from './dog.jpg'
-export default function ProjectCard({ title, tools, description, link }) {
+export default function ProjectCard({
+  title,
+  tools,
+  description,
+  link,
+}: {
+  title: string
+  tools: string
+  description: string
+  link: string
+}) {
   return (
     <Link
       href={link}
