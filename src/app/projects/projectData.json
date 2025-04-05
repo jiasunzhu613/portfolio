@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Collaborative Shopping Cart",
+    "tools": "React, Flask, SQLAlchemy, PostgreSQL, AWS",
+    "description": "Shop collaboratively and never leave an item behind again",
+    "link": "https://github.com/jiasunzhu613/CollaborativeShoppingCart"
+  },
+  {
+    "title": "LooGuessr",
+    "tools": "React, NodeJS, ExpressJS, MongoDB",
+    "description": "A social media geo-guesser game designed for students to learn about their campus",
+    "link": "https://github.com/HTN-2024-LooGuessr/LooGuessr"
+  },
+  {
+    "title": "spotify-to-youtube",
+    "tools": "Python, Selenium",
+    "description": "A tool that helps you to convert spotify playlists to youtube playlists",
+    "link": "https://github.com/jiasunzhu613/spotify-to-youtube"
+  }
+]
