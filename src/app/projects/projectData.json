@@ -1,7 +1,7 @@
 [
   {
     "title": "Collaborative Shopping Cart",
-    "tools": "React, Flask, SQLAlchemy, PostgreSQL, AWS",
+    "tools": "React, Flask, SQLAlchemy, PostgreSQL, AWS, Docker",
     "description": "Shop collaboratively and never leave an item behind again",
     "link": "https://github.com/jiasunzhu613/CollaborativeShoppingCart"
   },
