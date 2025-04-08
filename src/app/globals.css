@@ -20,7 +20,8 @@
   :root {
     --background: #fcfcf6;
     --foreground: #171717;
-    --foreground-secondary: #e15a5a;
+    --foreground-secondary: #222222;
+    --background-projects: #fffeec;
   }
 }
 
