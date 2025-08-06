@@ -1,5 +1,11 @@
 [
   {
+    "title": "UofTWebring",
+    "tools": "Next.js, Vercel, Supabase, Supabase SDK, PostgreSQL",
+    "description": "Building a unified space for UofT students to gather and showcase their web portfolios.",
+    "link": "https://github.com/uoft-webring/webring"
+  },
+  {
     "title": "Collaborative Shopping Cart",
     "tools": "React, Flask, SQLAlchemy, PostgreSQL, AWS, Docker",
     "description": "Shop collaboratively and never leave an item behind again",
