@@ -85,7 +85,7 @@ export default function Home() {
               <div className="flex items-center gap-2">
                 <a
                   className="text-xl font-mono text-foreground-ternary hover:text-foreground"
-                  href="https://uoftwebring.com/redirect?nav=prev&id=10"
+                  href="https://uoftwebring.com/redirect?nav=prev&id=1"
                 >
                   ←
                 </a>
@@ -100,7 +100,7 @@ export default function Home() {
                 </a>
                 <a
                   className="text-xl font-mono text-foreground-ternary hover:text-foreground"
-                  href="https://uoftwebring.com/redirect?nav=next&id=10"
+                  href="https://uoftwebring.com/redirect?nav=next&id=1"
                 >
                   →
                 </a>
