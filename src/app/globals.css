@@ -3,7 +3,8 @@
 :root {
   --background: #fcfcf6;
   --foreground: #171717;
-  --foreground-secondary: #222222;
+  --foreground-secondary: #232323;
+  --foreground-ternary: #686868;
   --background-projects: #f9f9eb;
 }
 
@@ -11,6 +12,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-ternary: var(--foreground-ternary);
   --color-background-projects: var(--background-projects);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -21,6 +23,7 @@
     --background: #1e1e1e;
     --foreground: #ffffff;
     --foreground-secondary: #fcfcf6;
+    --foreground-ternary: #e8e8e3;
     --background-projects: #28282a;
   }
 }

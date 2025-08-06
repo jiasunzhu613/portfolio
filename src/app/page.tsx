@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import NavBar from '@/components/NavBar'
@@ -6,9 +8,6 @@ import {
   LinkedInLogoIcon,
   FileTextIcon,
 } from '@radix-ui/react-icons'
-
-const filter: string =
-  'brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(301deg) brightness(103%) contrast(102%)'
 
 export default function Home() {
   return (
@@ -33,13 +32,13 @@ export default function Home() {
             <div className="flex justify-between mt-4">
               <div className="flex">
                 <Image
-                  src="/profileImage_new.jpg"
+                  src="/profile.jpg"
                   width={64}
                   height={64}
                   alt="Picture of the author"
                   objectFit="cover"
                   objectPosition="center"
-                  className="rounded-full mr-3 border-2 outline outline-white"
+                  className="rounded-full mr-3 border-2 outline outline-foreground-secondary"
                 />
 
                 <Link
@@ -85,24 +84,22 @@ export default function Home() {
 
               <div className="flex items-center gap-2">
                 <a
-                  className="text-xl font-mono text-gray-200 hover:text-white"
+                  className="text-xl font-mono text-foreground-ternary hover:text-foreground"
                   href="https://uoftwebring.com/redirect?nav=prev&id=10"
                 >
                   ←
                 </a>
                 <a href="https://uoftwebring.com" target="_blank">
                   <Image
-                    src="https://uoftwebring.com/ring_logo.svg"
+                    src="https://uoftwebring.com/ring_logo_black.svg"
                     alt="UofT Webring"
                     height={24}
                     width={24}
-                    style={{
-                      filter: filter,
-                    }}
+                    className="dark:invert"
                   />
                 </a>
                 <a
-                  className="text-xl font-mono text-gray-200 hover:text-white"
+                  className="text-xl font-mono text-foreground-ternary hover:text-foreground"
                   href="https://uoftwebring.com/redirect?nav=next&id=10"
                 >
                   →
