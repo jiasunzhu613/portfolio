@@ -15,9 +15,9 @@ export default function ProjectCard({
     <Link
       href={link}
       target="_blank"
-      className="transition duration-300 group-hover:opacity-50 hover:!opacity-100 hover:scale-110"
+      // className="transition duration-300 group-hover:opacity-50 hover:!opacity-100 hover:scale-110"
     >
-      <div className="bg-background-projects p-8 mb-2 ">
+      <div className="bg-projects p-8 mb-2 ">
         <h3 className="text-xs font-bold tracking-widest uppercase mb-3 hyphens-auto text-pretty">
           {tools}
         </h3>

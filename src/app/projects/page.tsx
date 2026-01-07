@@ -9,7 +9,7 @@ export default function Projects() {
       {/* <NavBar></NavBar> */}
       <div className="flex justify-center">
         {/* about me:  */}
-        <div className="flex flex-col mt-15 w-[20em] md:w-[40em]">
+        <div className="flex flex-col mt-15 w-[30em]">
           <NavBar />
           <div className="flex flex-col mt-15 group">
             {ProjectData.map((project) => {

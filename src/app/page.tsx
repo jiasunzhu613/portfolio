@@ -15,14 +15,14 @@ export default function Home() {
       {/* <NavBar></NavBar> */}
       <div className="flex justify-center">
         {/* about me:  */}
-        <div className="flex flex-col mt-15 w-[20em] md:w-[40em]">
+        <div className="flex flex-col mt-15 w-[30em]">
           <NavBar />
           <div className="my-10">
             <h1 className="text-6xl font-black mb-2">Jonathan Zhu</h1>
             <h2 className="text-2xl font-medium mb-4">
-              Student at the University of Toronto
+              CS/Stats @ UofT, prev @ PointClickCare
             </h2>
-            <h3 className="text-foreground-secondary">
+            <h3 className="text-foreground">
               I am a student who is curious about all things tech.
               <br></br>
               <br></br>
@@ -31,25 +31,16 @@ export default function Home() {
             </h3>
             <div className="flex justify-between mt-4">
               <div className="flex">
-                <Image
-                  src="/profile.jpg"
-                  width={64}
-                  height={64}
-                  alt="Picture of the author"
-                  objectFit="cover"
-                  objectPosition="center"
-                  className="rounded-full mr-3 border-2 outline outline-foreground-secondary"
-                />
-
                 <Link
                   href="https://github.com/jiasunzhu613"
                   target="_blank"
                   className="flex items-center mr-5 group"
                 >
+                  {/* group-hover:size-6 duration-200 transition-all */}
                   <GitHubLogoIcon
                     width={20}
                     height={20}
-                    className="mr-1 group-hover:size-6 duration-200 transition-all"
+                    className="mr-1"
                   ></GitHubLogoIcon>
                   <span className="text-[1em] ">Github</span>
                 </Link>
@@ -62,7 +53,7 @@ export default function Home() {
                   <LinkedInLogoIcon
                     width={20}
                     height={20}
-                    className="mr-1 group-hover:size-6 duration-200 transition-all"
+                    className="mr-1"
                     // transition ease-in-out duration-300 group-hover:scale-110 group-hover:-translate-y-1
                   ></LinkedInLogoIcon>
                   <span className="text-[1em] ">Linkedin</span>
@@ -76,7 +67,7 @@ export default function Home() {
                   <FileTextIcon
                     width={20}
                     height={20}
-                    className="mr-1 group-hover:size-6 duration-200 transition-all"
+                    className="mr-1"
                   ></FileTextIcon>
                   <span className="text-[1em]">Resume</span>
                 </Link>

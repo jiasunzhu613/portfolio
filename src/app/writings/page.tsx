@@ -6,13 +6,10 @@ export default function Writings() {
       {/* <NavBar></NavBar> */}
       <div className="flex justify-center">
         {/* about me:  */}
-        <div className="flex flex-col mt-15 w-[20em] md:w-[40em]">
+        <div className="flex flex-col mt-15 w-[30em]">
           <NavBar />
           <div className="flex justify-center mt-15 ">
-            <h1 className="font-bold tracking-widest">
-              {' '}
-              no writings just yet.
-            </h1>
+            <h1 className="font-bold tracking-widest">no writings just yet.</h1>
           </div>
         </div>
       </div>
